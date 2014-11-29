@@ -1,0 +1,12 @@
+#!/bin/bash
+
+original_string="@relation whatever\n\n@attribute age numeric\n\n@attribute sex { 1 , 0 }\n\n@attribute chol numeric\n@attribute hbeat numeric\n@attribute danger { 0 , 2 , 1 , 3 , 4 }\n\n@data\nage1 , sex1 , chol1 , pulse1 , ?\n"
+string_to_replace_age=$1
+string_to_replace_sex=$2
+string_to_replace_chol=$3
+string_to_replace_pulse=$4
+result_string="${original_string/age1/$string_to_replace_age}"
+result_string="${result_string/sex1/$string_to_replace_sex}"
+result_string="${result_string/chol1/$string_to_replace_chol}"
+result_string="${result_string/pulse1/$string_to_replace_pulse}"
+echo -e $result_string > test.arff

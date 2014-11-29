@@ -81,7 +81,7 @@ Class 4
     Node 4
 
 
-Time taken to build model: 0.43 seconds
+Time taken to build model: 0.68 seconds
 Time taken to test model on training data: 0.03 seconds
 
 === Error on training data ===

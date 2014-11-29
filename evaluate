@@ -1,0 +1,1 @@
+java -cp weka.jar weka.classifiers.functions.MultilayerPerceptron -T ./test.arff -l nn.model -p 0 -classifications "weka.classifiers.evaluation.output.prediction.CSV" > predict.csv
