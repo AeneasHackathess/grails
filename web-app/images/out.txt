@@ -1,0 +1,120 @@
+
+Options: -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H 4 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.8488963352603784
+    Node 5    3.2975744915827434
+    Node 6    -1.2039873520103654
+    Node 7    2.335448097399077
+    Node 8    0.8753901509389488
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -1.3686810944066277
+    Node 5    0.6915608680600157
+    Node 6    9.493072139128746
+    Node 7    -7.079751791538145
+    Node 8    -5.478399355057696
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.0323721773453514
+    Node 5    -0.4333086063986777
+    Node 6    -1.7202733769396883
+    Node 7    -0.5981606209141526
+    Node 8    -0.5131281411225789
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -0.06300523325785934
+    Node 5    -3.5412255528889616
+    Node 6    -3.030316223006795
+    Node 7    0.12589839285524848
+    Node 8    1.5421911529121448
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.2638179339118927
+    Node 5    -0.018164802466580116
+    Node 6    -0.9960176489716306
+    Node 7    -3.836729475150117
+    Node 8    -0.7495241474861881
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    1.3003484610433123
+    Attrib age    5.565167737402974
+    Attrib sex    4.722698336801661
+    Attrib chol    -5.163834608092355
+    Attrib hbeat    15.925518411818752
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -1.2215829148324777
+    Attrib age    -9.2278512275356
+    Attrib sex    3.1744202761690072
+    Attrib chol    5.5584347454591025
+    Attrib hbeat    -6.173621974211924
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -4.1854636688936155
+    Attrib age    -7.327561454437714
+    Attrib sex    0.8027431322133699
+    Attrib chol    -5.345530353003075
+    Attrib hbeat    3.1041953330992964
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -3.0675266120441713
+    Attrib age    1.2221630083113042
+    Attrib sex    5.099118803989876
+    Attrib chol    -3.400981315400552
+    Attrib hbeat    7.367269175006695
+Class 0
+    Input
+    Node 0
+Class 2
+    Input
+    Node 1
+Class 1
+    Input
+    Node 2
+Class 3
+    Input
+    Node 3
+Class 4
+    Input
+    Node 4
+
+
+Time taken to build model: 0.43 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         191               63.0363 %
+Incorrectly Classified Instances       112               36.9637 %
+Kappa statistic                          0.3551
+Mean absolute error                      0.2062
+Root mean squared error                  0.3206
+Relative absolute error                 79.6297 %
+Root relative squared error             89.278  %
+Coverage of cases (0.95 level)          96.3696 %
+Mean rel. region size (0.95 level)      69.1749 %
+Total Number of Instances              303     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.939    0.482    0.697      0.939    0.800      0.513    0.828     0.848     0
+                 0.444    0.056    0.516      0.444    0.478      0.415    0.829     0.491     2
+                 0.018    0.004    0.500      0.018    0.035      0.067    0.663     0.269     1
+                 0.571    0.108    0.408      0.571    0.476      0.402    0.795     0.379     3
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.790     0.249     4
+Weighted Avg.    0.630    0.281    0.576      0.630    0.551      0.385    0.792     0.621     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 154   4   0   6   0 |   a = 0
+  14  16   0   6   0 |   b = 2
+  34   5   1  15   0 |   c = 1
+  14   1   0  20   0 |   d = 3
+   5   5   1   2   0 |   e = 4
+

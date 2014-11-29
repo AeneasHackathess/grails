@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: meerkat
   Date: 11/29/14
-  Time: 12:26 PM
+  Time: 5:54 PM
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" %>
@@ -12,6 +12,6 @@
 </head>
 
 <body>
-TODO
+TODO SUCCESS form
 </body>
 </html>

@@ -94,7 +94,8 @@ environments {
         grails.serverURL = "83.212.100.212/Aeneas"
     }
 }
-
+grails.resources.adhoc.patterns = ['/images/*', '/css/*', '/js/*', '/plugins/*']
+grails.resources.adhoc.includes = ['/images/**', '/css/**', '/js/**', '/plugins/**']
 // log4j configuration
 log4j.main = {
     // Example of changing the log pattern for the default console appender:
