@@ -8,10 +8,17 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Register Form</title>
+    <asset:javascript src="bootstrap.min.js"/>
+    <asset:stylesheet src="bootstrap.min.css"/>
+    <asset:stylesheet src="mycss.css"/>
 </head>
 
-<body>
+<body style="background-color: #D5E2D5">
 <div id="create-shop" class="content scaffold-create" role="main">
     <g:if test="${flash.message}">
         <div class="message" role="status">${flash.message}</div>
@@ -33,8 +40,14 @@
             </g:eachError>
         </ul>
     </g:hasErrors>
+    <div id="register_head_class_j"  class="container-fluid" style="padding-top: 30px;padding-bottom: 30px; background-color: #2C3E50;">
+        <div class="page-header">
+            <h1 class="text-center" style="color: #FFF">Register</h1>
+        </div>
+        <p class="lead text-center" style="color: #FFF">Register your device.</p>
+    </div>
 <div id="registerForm">
-<g:form name="registerForm" controller="register" action="register">
+<g:form name="registerForm" controller="register" action="register" class = "col-md-6 col-md-offset-3" style="padding-top: 30px">
         <div class="form-group">
             <label for="username">Όνομα Χρήστη:</label>
             <input type="text" class="form-control" id="username" name="username">
@@ -58,13 +71,12 @@
                 <g:select name="sex" id="sex" from="${["Άνδρας","Γυναίκα"]}"
                           noSelection="['':'Συμπληρώστε Φύλο']"/>
             </div>
-            <div class="form-group">
-                <label for="dementia">Άνοια:</label>
-                <input type="checkbox" class="form-control" id="dementia" name="dementia">
+            <div class="checkbox">
+                <label for="dementia">Άνοια<input type="checkbox" id="dementia" name="dementia"></label>
             </div>
-            <div class="form-group">
-                <label for="alzheimer">Alzheimer:</label>
-                <input type="checkbox" class="form-control" id="alzheimer" name="alzheimer">
+            <div class="checkbox">
+                <label for="alzheimer">Alzheimer</label>
+                <input type="checkbox" id="alzheimer" name="alzheimer">
             </div>
             <div class="form-group">
                 <label for="chol">Επίπεδα Χολιστερόλης:</label>
