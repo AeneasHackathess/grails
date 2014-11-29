@@ -10,14 +10,14 @@ class ArduinoController {
             if(params.int("panic")==1){
                 user.patient.panic=true
             }
-            Place place2=new Place(lat: params.lat,lng: params.lng)
+            Place place2=new Place(lat: params.float("lat"),lng: params.float("lng"))
             try {
                 place2.save(flush: true,failOnError: true)
                 def movement2=false
                 if(params.int("move")==1){
                     movement2=true
                 }
-                Measure measure=new Measure(timestamp: new Date(), pulseRate: params.pulse,movement: movement2,place: place2)
+                Measure measure=new Measure(timestamp: new Date(), pulseRate: params.int("pulse"),movement: movement2,place: place2)
                 try {
                     measure.save(flush: true,failOnError: true)
                     user.patient.measures.add(measure)
