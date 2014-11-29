@@ -18,7 +18,6 @@ class RegisterController {
             User user=new User(username: params.username,mac: params.mac,patient: patient2)
             try {
                 user.save(flush: true,failOnError: true)
-                redirect(action:'success')
             }catch (Exception e2){
                 patient2.delete(flush: true)
                 respond user.errors, view: 'index'
