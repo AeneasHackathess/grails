@@ -1,0 +1,27 @@
+# .gitignore for Grails 2.4.3
+
+#intellij shit
+*.iml
+.classpath
+.project
+.settings
+.idea
+grailsw.bat
+grailsw
+
+#grails lib 
+lib/*
+src/*
+wrapper/*
+
+#grails tests
+test/*
+
+#grails war files
+target/*
+
+#forgotten gitignore gedit-backup
+.gitignore~  
+
+#grail's out classes
+out/*
