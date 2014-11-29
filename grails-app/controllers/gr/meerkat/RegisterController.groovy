@@ -4,7 +4,6 @@ class RegisterController {
 
     def index() { }
     def register(){
-        println(params)
         boolean dem=false
         if(params.dementia){
             dem=true
@@ -13,7 +12,7 @@ class RegisterController {
         if(params.alzheimer){
             altz=true
         }
-        Patient patient2=new Patient(name: params.patientName,sex: params.sex,age: params.age,dementia: dem,alzheimer: altz,cholisterol: params.chol)
+        Patient patient2=new Patient(name: params.patientName,sex: params.sex,age: params.age,dementia: dem,alzheimer: altz,cholisterol: params.chol,panic: false)
         try {
             patient2.save(flush: true,failOnError: true)
             User user=new User(username: params.username,mac: params.mac,patient: patient2)
