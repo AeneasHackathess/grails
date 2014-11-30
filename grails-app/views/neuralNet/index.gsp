@@ -63,6 +63,13 @@
         <button type="submit" class="btn btn-default">Start Training</button>
     </g:form>
 </div>
+</div>
+<div id="footer">
+    <div class="container">
+        <p class="text-muted">Meerkat - Aeneas, a project for Thessaloniki.</p>
+    </div>
+</div>
+</body>
 </body>
 
 <script src="https://code.jquery.com/jquery.js"></script>
