@@ -23,13 +23,13 @@
 					<hr class="intro-divider">
 					<ul class="list-inline intro-social-buttons">
 						<li>
-							<a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Register</span></a>
+							<a href="/Aeneas/register" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Register</span></a>
 						</li>
 						<li>
-							<a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Neural Network</span></a>
+							<a href="/Aeneas/neuralNet" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Neural Network</span></a>
 						</li>
 						<li>
-							<a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Android</span></a>
+							<a href="/Aeneas/api" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">OpenData API</span></a>
 						</li>
 					</ul>
 				</div>

@@ -1,0 +1,492 @@
+
+Options: -L 0.3 -M 0.2 -N 2000 -V 0 -S 0 -E 20 -H 35 
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    1.3093613091651035
+    Node 5    -6.171164372771606
+    Node 6    1.9808471819985818
+    Node 7    10.353494321568999
+    Node 8    -4.239907475942633
+    Node 9    -5.7290887883397055
+    Node 10    -1.8519231573255006
+    Node 11    1.5186540725013964
+    Node 12    -2.2682722784365477
+    Node 13    8.734907940117655
+    Node 14    -2.2688530121106734
+    Node 15    12.187384262643013
+    Node 16    -0.1439204805677046
+    Node 17    2.27724462211892
+    Node 18    -2.4350168537892083
+    Node 19    -9.10101432810523
+    Node 20    -0.6112222178759232
+    Node 21    -0.7451216202167675
+    Node 22    -5.5174191621908575
+    Node 23    4.178262031975444
+    Node 24    -0.9413732019605806
+    Node 25    -1.7395631214103418
+    Node 26    -2.088273232011289
+    Node 27    -1.790831698344819
+    Node 28    -1.701468101613964
+    Node 29    -2.3051797820270727
+    Node 30    -6.097671476502811
+    Node 31    0.22934835529582356
+    Node 32    -6.851232417053524
+    Node 33    -6.5541477390643585
+    Node 34    4.398361827134224
+    Node 35    0.3257727682392156
+    Node 36    -0.24868109007727915
+    Node 37    0.21940114215448345
+    Node 38    7.5986269043576415
+    Node 39    -1.3777153516159588
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -0.8397268199109517
+    Node 5    5.011401333202856
+    Node 6    3.457437721858926
+    Node 7    -2.4964751832458854
+    Node 8    -0.32141210507812423
+    Node 9    1.978109957180696
+    Node 10    -0.7438928400917765
+    Node 11    2.5449851782054203
+    Node 12    -1.1524430490438442
+    Node 13    -5.1900995236929495
+    Node 14    -0.9891830578499676
+    Node 15    -3.1291225800718956
+    Node 16    0.16754223347639563
+    Node 17    -6.839125031680358
+    Node 18    12.354716107384863
+    Node 19    -5.596678836751831
+    Node 20    0.5918083116440102
+    Node 21    0.5437830694091914
+    Node 22    10.53506395173367
+    Node 23    -2.1139758526822834
+    Node 24    0.5271350105700626
+    Node 25    -0.24546229904972852
+    Node 26    -0.18956984418661832
+    Node 27    -0.18878167319951158
+    Node 28    0.24351758681622607
+    Node 29    -1.3337779702932793
+    Node 30    -2.46504807199729
+    Node 31    0.8212770162426916
+    Node 32    -12.370758591487053
+    Node 33    -2.3077584901727173
+    Node 34    -2.502377117572675
+    Node 35    0.5407339834586575
+    Node 36    -0.6690941883907481
+    Node 37    0.4876505538048813
+    Node 38    -2.149210922570145
+    Node 39    -0.22204603831562023
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -5.133299330082021
+    Node 5    -4.572476483337792
+    Node 6    -9.773676621212072
+    Node 7    -4.083539739513752
+    Node 8    2.814136478498881
+    Node 9    2.977032194281058
+    Node 10    0.6537711480030088
+    Node 11    0.020588419346535825
+    Node 12    0.7568865109164025
+    Node 13    -7.182563901085221
+    Node 14    0.9408282822184258
+    Node 15    -13.348204453940534
+    Node 16    0.7784278022022276
+    Node 17    -0.14809243763550953
+    Node 18    6.579557697028374
+    Node 19    5.935546021093256
+    Node 20    1.6484083728728864
+    Node 21    1.8228085591979402
+    Node 22    -0.7158885243419412
+    Node 23    -0.04070717609792181
+    Node 24    1.5786862878675894
+    Node 25    1.0958304296154688
+    Node 26    2.715854749393862
+    Node 27    0.8758245412911524
+    Node 28    3.584582110077088
+    Node 29    0.5089527697073756
+    Node 30    2.503584440823543
+    Node 31    1.8948494974235643
+    Node 32    3.9319156356005034
+    Node 33    1.4818479532642854
+    Node 34    -3.9150763139876337
+    Node 35    2.3285733466570724
+    Node 36    1.2876021924478243
+    Node 37    1.2748176262860873
+    Node 38    -5.15629464316941
+    Node 39    1.4704553937105154
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -8.25318258045529
+    Node 5    -0.5712187481572484
+    Node 6    7.102559732972238
+    Node 7    -9.472871965045277
+    Node 8    8.023568125039153
+    Node 9    -4.114791650594149
+    Node 10    -1.0766817751025177
+    Node 11    0.835915866249152
+    Node 12    -0.38393981969363816
+    Node 13    9.32853555477692
+    Node 14    -1.005783465467414
+    Node 15    -2.59106988280077
+    Node 16    -2.7413455389971357
+    Node 17    1.2018599079549674
+    Node 18    -5.868569342645688
+    Node 19    1.807868665322711
+    Node 20    -1.6693248736492399
+    Node 21    -1.1215579124890553
+    Node 22    -2.5182998383772444
+    Node 23    -2.025826726214363
+    Node 24    -1.4340245790923254
+    Node 25    -1.4008716788606002
+    Node 26    11.317456069231811
+    Node 27    -1.5726724079198087
+    Node 28    -6.8178361814929165
+    Node 29    -1.4698733470635452
+    Node 30    -1.1416123116814723
+    Node 31    -2.5683973841444345
+    Node 32    0.607330952574547
+    Node 33    4.729075135927714
+    Node 34    3.148464305308353
+    Node 35    -2.1003428371786614
+    Node 36    -1.111124665852739
+    Node 37    -2.51873636104607
+    Node 38    -6.123885251509711
+    Node 39    -1.1076327535448156
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -1.7902119864387958
+    Node 5    -0.9585247959156018
+    Node 6    0.29123234463267605
+    Node 7    -0.23365356306408805
+    Node 8    5.280657073556204
+    Node 9    1.0846550416135934
+    Node 10    -0.23661695563630822
+    Node 11    -9.77447234168641
+    Node 12    -1.2296278626477002
+    Node 13    -4.068904298049935
+    Node 14    0.0568259104880665
+    Node 15    -1.6448644012414242
+    Node 16    2.1875748156416117
+    Node 17    -6.507652165026461
+    Node 18    -1.0483586745066014
+    Node 19    -2.12064539708804
+    Node 20    0.7789818179008675
+    Node 21    0.18453941138616162
+    Node 22    -4.581959664101429
+    Node 23    -5.213892138401116
+    Node 24    0.7659730198113606
+    Node 25    0.6898988335241917
+    Node 26    -4.008484627759735
+    Node 27    0.8479475270663092
+    Node 28    -2.114764742676767
+    Node 29    0.5722580944792802
+    Node 30    -0.6498420952234808
+    Node 31    1.0958501338996638
+    Node 32    6.081248637386331
+    Node 33    2.3278989884578998
+    Node 34    -0.9967588673132899
+    Node 35    0.6200771229576493
+    Node 36    0.43543275963434314
+    Node 37    1.4407252292104933
+    Node 38    -1.7913859102008047
+    Node 39    0.5837980196576019
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.7722897105842768
+    Attrib age    -7.4245622560349345
+    Attrib sex    2.016712814856667
+    Attrib chol    6.254869751984984
+    Attrib hbeat    -6.61112850762405
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    4.304986028396243
+    Attrib age    -7.149054363256462
+    Attrib sex    1.0340268290637253
+    Attrib chol    23.020696383100763
+    Attrib hbeat    -4.895189171073281
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -11.267849386557696
+    Attrib age    19.869833368169335
+    Attrib sex    7.580148959303303
+    Attrib chol    9.638172591540254
+    Attrib hbeat    -9.455808076013305
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -3.38082014921389
+    Attrib age    -6.4081444971743
+    Attrib sex    -8.175734971785849
+    Attrib chol    4.776605045246544
+    Attrib hbeat    -24.11849761917112
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -1.2363227967797878
+    Attrib age    -5.533781500666491
+    Attrib sex    5.879282468722698
+    Attrib chol    1.8187261919627662
+    Attrib hbeat    -7.926742145220836
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -2.826131453197837
+    Attrib age    -2.7815884118047283
+    Attrib sex    -0.8180139195038904
+    Attrib chol    0.8635897792844275
+    Attrib hbeat    -0.7513268527157485
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -0.010905220582058943
+    Attrib age    -1.3249838643501395
+    Attrib sex    -4.152334597456491
+    Attrib chol    8.739842001046123
+    Attrib hbeat    -6.054452391995867
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -5.356259315196446
+    Attrib age    -3.7433217522539812
+    Attrib sex    -0.44773791448619954
+    Attrib chol    -0.42786350664203554
+    Attrib hbeat    -0.593798030147407
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -7.558821984411039
+    Attrib age    -16.803020151168838
+    Attrib sex    3.9488614275752036
+    Attrib chol    -5.153829881927847
+    Attrib hbeat    -12.285635931985654
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    -2.143263984966507
+    Attrib age    -3.197458986322005
+    Attrib sex    -1.1473836062910419
+    Attrib chol    1.4960653897415035
+    Attrib hbeat    -1.6453944233059237
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -14.73547218278034
+    Attrib age    -13.505582366649977
+    Attrib sex    8.56945854364595
+    Attrib chol    -11.413704294587086
+    Attrib hbeat    11.848492163059511
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    -1.133354768740774
+    Attrib age    -3.2264540641694963
+    Attrib sex    1.9383646104258756
+    Attrib chol    1.6945745008228632
+    Attrib hbeat    -0.02641681652795519
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -2.8808174616208087
+    Attrib age    -11.255107712365332
+    Attrib sex    -3.1777352387096434
+    Attrib chol    -0.00755816430857301
+    Attrib hbeat    -9.705239757315764
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -1.8733790437995872
+    Attrib age    -16.170546076474988
+    Attrib sex    1.892815393165281
+    Attrib chol    11.369387572298573
+    Attrib hbeat    -8.268084164960074
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -13.399784875582935
+    Attrib age    -17.033044554358735
+    Attrib sex    6.582900161996524
+    Attrib chol    -14.35112014912718
+    Attrib hbeat    6.862714099911651
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    -1.3176115320303903
+    Attrib age    -2.0605738265750055
+    Attrib sex    0.7528174427592093
+    Attrib chol    1.3500608129438427
+    Attrib hbeat    -0.23512751906300597
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -1.5369176924532246
+    Attrib age    -1.876673668645181
+    Attrib sex    0.21016550682352045
+    Attrib chol    0.7219298392940131
+    Attrib hbeat    -0.8953256283647213
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -6.373087996095186
+    Attrib age    3.4900207874542177
+    Attrib sex    1.2522703392031092
+    Attrib chol    4.53066414838653
+    Attrib hbeat    -10.384999732183433
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -1.480682668431934
+    Attrib age    1.5248281411203406
+    Attrib sex    3.289030653750908
+    Attrib chol    2.4983186890705196
+    Attrib hbeat    2.9417788002564826
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    -1.3820776931260672
+    Attrib age    -2.1948420222425793
+    Attrib sex    0.409707920762234
+    Attrib chol    0.7489482108943118
+    Attrib hbeat    -0.6579894594066747
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    -1.6837257378961645
+    Attrib age    -2.805665383877555
+    Attrib sex    -0.1414275303095467
+    Attrib chol    0.8856523268128514
+    Attrib hbeat    -1.001187318704424
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    3.787108832231388
+    Attrib age    -11.276625250802908
+    Attrib sex    6.175031760866806
+    Attrib chol    7.076296943752501
+    Attrib hbeat    21.63669141089447
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    -1.507017131884006
+    Attrib age    -2.958286275988719
+    Attrib sex    -0.007525066856156792
+    Attrib chol    1.0034678078207406
+    Attrib hbeat    -0.8091244437445455
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -2.4145363654019203
+    Attrib age    -11.965609912687658
+    Attrib sex    -3.2609715764419835
+    Attrib chol    -2.837651515348225
+    Attrib hbeat    20.22601958913553
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    -1.090594922599995
+    Attrib age    -4.852864296605006
+    Attrib sex    -1.1197169932430608
+    Attrib chol    1.6558065055167472
+    Attrib hbeat    -0.10764398689008432
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    -1.5405284456547292
+    Attrib age    -5.804675938821244
+    Attrib sex    -1.9502311390975926
+    Attrib chol    5.886563120083714
+    Attrib hbeat    -4.882787028077
+Sigmoid Node 31
+    Inputs    Weights
+    Threshold    -1.087960739551235
+    Attrib age    -2.5438213169750257
+    Attrib sex    1.3324250280735308
+    Attrib chol    2.6537779356543916
+    Attrib hbeat    0.9304440516468341
+Sigmoid Node 32
+    Inputs    Weights
+    Threshold    -6.238740516870623
+    Attrib age    12.323576437235014
+    Attrib sex    -1.4148467014104935
+    Attrib chol    15.94762716194576
+    Attrib hbeat    0.5607528146234123
+Sigmoid Node 33
+    Inputs    Weights
+    Threshold    0.8736079139636521
+    Attrib age    -12.260374948791469
+    Attrib sex    10.656054045007727
+    Attrib chol    -5.800654032995377
+    Attrib hbeat    -10.39533556470692
+Sigmoid Node 34
+    Inputs    Weights
+    Threshold    3.1739103166127793
+    Attrib age    -27.21925019505092
+    Attrib sex    1.2585986672489307
+    Attrib chol    -1.4181777622438378
+    Attrib hbeat    6.93985881223645
+Sigmoid Node 35
+    Inputs    Weights
+    Threshold    -1.119295673504297
+    Attrib age    -1.8922464757891146
+    Attrib sex    1.329905872563237
+    Attrib chol    2.9944188756623444
+    Attrib hbeat    0.8299329706772144
+Sigmoid Node 36
+    Inputs    Weights
+    Threshold    -2.7225017892249306
+    Attrib age    -1.8635240989474067
+    Attrib sex    0.2888391082647914
+    Attrib chol    -0.6399783746992397
+    Attrib hbeat    -0.7648480654343803
+Sigmoid Node 37
+    Inputs    Weights
+    Threshold    -1.4142547431237664
+    Attrib age    -2.6835768963735713
+    Attrib sex    1.5590099968891113
+    Attrib chol    1.9288471207320563
+    Attrib hbeat    0.49716033514975083
+Sigmoid Node 38
+    Inputs    Weights
+    Threshold    -5.465054012056021
+    Attrib age    -20.59054863601124
+    Attrib sex    6.050759352630779
+    Attrib chol    -3.9074448939481514
+    Attrib hbeat    7.8854623602030385
+Sigmoid Node 39
+    Inputs    Weights
+    Threshold    -1.8879956902690975
+    Attrib age    -2.5238811071384615
+    Attrib sex    -0.24477912937998533
+    Attrib chol    0.46495075375190986
+    Attrib hbeat    -1.0746799625935881
+Class 0
+    Input
+    Node 0
+Class 2
+    Input
+    Node 1
+Class 1
+    Input
+    Node 2
+Class 3
+    Input
+    Node 3
+Class 4
+    Input
+    Node 4
+
+
+Time taken to build model: 5.92 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         227               74.9175 %
+Incorrectly Classified Instances        76               25.0825 %
+Kappa statistic                          0.5875
+Mean absolute error                      0.1409
+Root mean squared error                  0.2734
+Relative absolute error                 54.4167 %
+Root relative squared error             76.1269 %
+Coverage of cases (0.95 level)          93.3993 %
+Mean rel. region size (0.95 level)      45.9406 %
+Total Number of Instances              303     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.933    0.281    0.797      0.933    0.860      0.675    0.914     0.925     0
+                 0.528    0.030    0.704      0.528    0.603      0.565    0.859     0.641     2
+                 0.436    0.052    0.649      0.436    0.522      0.452    0.852     0.628     1
+                 0.714    0.056    0.625      0.714    0.667      0.622    0.898     0.709     3
+                 0.462    0.003    0.857      0.462    0.600      0.618    0.737     0.532     4
+Weighted Avg.    0.749    0.172    0.742      0.749    0.734      0.613    0.887     0.796     
+
+
+=== Confusion Matrix ===
+
+   a   b   c   d   e   <-- classified as
+ 153   3   5   3   0 |   a = 0
+   9  19   4   3   1 |   b = 2
+  19   4  24   8   0 |   c = 1
+   7   0   3  25   0 |   d = 3
+   4   1   1   1   6 |   e = 4
+

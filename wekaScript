@@ -1,1 +1,1 @@
-java -cp weka.jar weka.classifiers.functions.MultilayerPerceptron -L $1 -M $2 -N $3 -V 0 -S 0 -E 20 -H $4 -no-cv -t train.arff -d nn.model > ./web-app/images/out.txt
+java -cp weka.jar weka.classifiers.functions.MultilayerPerceptron -L $1 -M $2 -N $3 -V 0 -S 0 -E 20 -H $4 -no-cv -t train.arff -d nn.model > ./out.txt

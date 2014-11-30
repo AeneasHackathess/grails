@@ -32,7 +32,9 @@ class ArduinoController {
                         s=1
                     }
                     def risk=evaluate(user.patient.age,s,user.patient.cholisterol,params.int('pulse'))
-                    if(risk>=2){
+                    println(risk)
+                    risk=risk.toInteger()
+                    if(risk<2){
                         user.patient.panic=true
                     }
                     render res as JSON
@@ -55,17 +57,17 @@ class ArduinoController {
         }
     }
     def evaluate(int age,int sex,int chol,int pulse){
-        def command = """ls"""// Create the String
-        def proc = command.execute()                 // Call *execute* on the string
-        proc.waitFor()
-
-        println "return code: ${ proc.exitValue()}"
-        println "stderr: ${proc.err.text}"
-        println "stdout: ${proc.in.text}" // *out* from the external program is *in* for groovy
+//        def command = """ls"""// Create the String
+//        def proc = command.execute()                 // Call *execute* on the string
+//        proc.waitFor()
+//
+//        println "return code: ${ proc.exitValue()}"
+//        println "stderr: ${proc.err.text}"
+//        println "stdout: ${proc.in.text}" // *out* from the external program is *in* for groovy
                                  // Wait for the command to finish
 //        def command = """./buildTestArff $age $sex $chol $pulse"""// Create the String
-        command = """./buildTestArff $age $sex $chol $pulse"""// Create the String
-        proc = command.execute()                 // Call *execute* on the string
+        def command = """./buildTestArff $age $sex $chol $pulse"""// Create the String
+        def proc = command.execute()                 // Call *execute* on the string
         proc.waitFor()                               // Wait for the command to finish
 
         println "return code: ${ proc.exitValue()}"

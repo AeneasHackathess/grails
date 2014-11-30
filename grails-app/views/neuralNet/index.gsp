@@ -64,11 +64,6 @@
     </g:form>
 </div>
 </div>
-<div id="footer">
-    <div class="container">
-        <p class="text-muted">Meerkat - Aeneas, a project for Thessaloniki.</p>
-    </div>
-</div>
 </body>
 </body>
 

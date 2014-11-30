@@ -86,10 +86,5 @@
         <button type="submit" class="btn btn-default">Εγγραφή</button>
     </g:form>
 </div>
-    <div id="footer">
-        <div class="container">
-            <p class="text-muted">Meerkat - Aeneas, a project for Thessaloniki.</p>
-        </div>
-    </div>
 </body>
 </html>
