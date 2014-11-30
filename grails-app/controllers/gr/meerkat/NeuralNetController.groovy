@@ -14,7 +14,7 @@ class NeuralNetController {
 //        println "return code: ${ proc.exitValue()}"
 //        println "stderr: ${proc.err.text}"
 //        println "stdout: ${proc.in.text}" // *out* from the external program is *in* for groovy
-        render(file: "web-app/images/out.txt",contentType: "text")
+        render(file: "./webapps/images/out.txt",contentType: "text")
     }
     def test(){
 

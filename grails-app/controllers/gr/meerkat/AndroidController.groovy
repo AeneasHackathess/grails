@@ -11,8 +11,16 @@ class AndroidController {
                 user.patient.panic=false
                 def measure = user.patient.measures
                 measure=measure.sort{it.id}.last()
-//                println(measure.last())
-                response.add(pulse:measure.pulseRate,lat:measure.place.lat,lng:measure.place.lng,move:measure.timestamp,state:"danger")
+                def near=""
+                for(int i=0;i<3;i++){
+                    def place=DatasetPlaces.get(i+1)
+                    near=near+place.address+"!"+place.category
+                    if(i!=2){
+                        near=near+"_"
+                    }
+                }
+//                println(near)
+                response.add(pulse:measure.pulseRate,lat:measure.place.lat,lng:measure.place.lng,move:user.patient.moved,nearby:near,state:"danger")
                 def res = [response: response]
                 render res as JSON
             }

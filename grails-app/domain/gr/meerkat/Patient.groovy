@@ -8,9 +8,11 @@ class Patient {
     boolean dementia
     boolean alzheimer
     boolean panic
+    Date moved
     static hasMany = [measures:Measure]
 
     static constraints = {
         cholisterol(nullable: true)
+        moved(nullable: true)
     }
 }

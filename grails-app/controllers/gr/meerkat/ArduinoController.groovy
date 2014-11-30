@@ -13,11 +13,15 @@ class ArduinoController {
             Place place2=new Place(lat: params.float("lat"),lng: params.float("lng"))
             try {
                 place2.save(flush: true,failOnError: true)
-                def movement2=false
                 if(params.int("move")==1){
-                    movement2=true
+                    user.patient.moved=new Date()
+                    try {
+                        user.patient.save(flush: true,failOnError: true)
+                    }catch (Exception e3){
+                        println("Error saving patient")
+                    }
                 }
-                Measure measure=new Measure(timestamp: new Date(), pulseRate: params.int("pulse"),movement: movement2,place: place2)
+                Measure measure=new Measure(timestamp: new Date(), pulseRate: params.int("pulse"),place: place2)
                 try {
                     measure.save(flush: true,failOnError: true)
                     user.patient.measures.add(measure)
@@ -51,9 +55,17 @@ class ArduinoController {
         }
     }
     def evaluate(int age,int sex,int chol,int pulse){
-        def command = """./buildTestArff $age $sex $chol $pulse"""// Create the String
-        println(command)
+        def command = """ls"""// Create the String
         def proc = command.execute()                 // Call *execute* on the string
+        proc.waitFor()
+
+        println "return code: ${ proc.exitValue()}"
+        println "stderr: ${proc.err.text}"
+        println "stdout: ${proc.in.text}" // *out* from the external program is *in* for groovy
+                                 // Wait for the command to finish
+//        def command = """./buildTestArff $age $sex $chol $pulse"""// Create the String
+        command = """./buildTestArff $age $sex $chol $pulse"""// Create the String
+        proc = command.execute()                 // Call *execute* on the string
         proc.waitFor()                               // Wait for the command to finish
 
         println "return code: ${ proc.exitValue()}"
@@ -68,7 +80,7 @@ class ArduinoController {
         println "stderr: ${proc.err.text}"
         println "stdout: ${proc.in.text}" // *out* from the external program is *in* for groovy
 
-        def predict=new File("predict.csv")
+        def predict=new File("./predict.csv")
         def pat_class;
             if(predict){
                 predict.splitEachLine(','){fields ->
