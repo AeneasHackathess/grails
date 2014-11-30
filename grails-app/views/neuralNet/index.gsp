@@ -20,6 +20,39 @@
 </head>
 
 <body style="background-color: #D5E2D5">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/Aeneas"><img src="images/aeneas_logo.png"  height="35" width="35"></a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/Aeneas">Home</a>
+                </li>
+                <li>
+                    <a href="/Aeneas/register">Register</a>
+                </li>
+                <li>
+                    <a href="/Aeneas/neuralNet">Neural Network</a>
+                </li>
+                <li>
+                    <a href="/Aeneas/api">OpenData API</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
 <div id="neural"  class="container-fluid" style="padding-top: 30px;padding-bottom: 30px; background-color: #2C3E50;">
     <div class="page-header">
     <h1 class="text-center" style="color: #FFF">Train Neural Network</h1>

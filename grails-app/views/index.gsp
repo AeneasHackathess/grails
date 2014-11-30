@@ -46,11 +46,11 @@
 			<div class="col-lg-5 col-sm-6">
 				<hr class="section-heading-spacer">
 				<div class="clearfix"></div>
-				<h2 class="section-heading">Special Device</h2>
-				<p class="lead">A device that can be worn by people who require medical care.</p>
+				<h2 class="section-heading">Συσκευή</h2>
+				<p class="lead">Η συσκευή τοποθετείται πάνω στο σώμα του ηλικιωμένου και κατά τακτά χρονικά διαστήματα εντοπίζει τη θέση του, ανιχνεύει τον παλμό και την κίνησή του. Τέλος, φέρει κουμπί έκτακτης ανάγκης.</p>
 			</div>
 			<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-				<img class="img-responsive" src="images/android_app_screen_framed.png" alt="">
+				<img class="img-responsive" src="images/arduino.png" alt="">
 			</div>
 		</div>
 	</div>
@@ -63,8 +63,8 @@
 			<div class="col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6">
 				<hr class="section-heading-spacer">
 				<div class="clearfix"></div>
-				<h2 class="section-heading">Android Application<br>For their relatives</h2>
-				<p class="lead">Special Android Application designed in order to monitor the medical condition of the person that requires care.</p>
+				<h2 class="section-heading">Εφαρμογή κινητού</h2>
+				<p class="lead">Μέσω της εφαρμογής Android γίνεται παρακολούθηση της κατάστασης του ηλικιωμένου. Συγκεκριμένα, ενημερώνεται σε περίπτωση που ο ηλικιωμένος πάτησε το κουμπί έκτακτης ανάγκης ή σε περίπτωση που ανιχνευτεί πρόβλημα υγείας. Επιπροσθέτως, δίνεται η δυνατότητα να εντοπιστεί η θέση του ηλικιωμένου καθώς και μαγαζία (επωνυμία,τηλ επικοινωνίας) που βρίσκονται κοντά του. Πολύ χρήσιμο σε περιπτώσεις Alzheimer και Άνοιας.</p>
 			</div>
 			<div class="col-lg-5 col-sm-pull-6 col-sm-6">
 				<img class="img-responsive" src="images/android_app_screen_framed.png"x alt="">
@@ -75,29 +75,28 @@
 </div>
 <!-- /.content-section-b -->
 <div class="content-section-a">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-5 col-sm-6">
-				<hr class="section-heading-spacer">
-				<div class="clearfix"></div>
-				<h2 class="section-heading">Stay connected<br>Stay safe</h2>
-				<p class="lead">Using the device along with the Android Application, everyone fills safe and secure.</p>
-			</div>
-			<div class="col-lg-5 col-lg-offset-2 col-sm-6">
-				<img class="img-responsive" src="img/phones.png" alt="">
-			</div>
-		</div>
-	</div>
-	<!-- /.container -->
-</div>
-<!-- /.banner -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Νευρωνικό Δίκτυο</h2>
+                <p class="lead">Η ανίχνευση προβλήματος υγείας πραγματοποιείται μέσω νευρωνικού δικτύου. Η πρόβλεψη που παρέχει το δίκτυο βασίζεται στο ιατρικό προφίλ του ηλικιωμένου καθώς και στις μετρήσεις που λαμβάνονται real-time από την συσκευή που βρίσκεται πάνω στο σώμα του ηλικιωμένου. Η εκπαίδευση του νευρωνικού είναι δυνατή μέσα από το παρόν site και με κατάλληλα πειράματα μπορεί να προσφέρει ακριβέστερα αποτελέσματα.</p>
+            </div>
+            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                <img class="img-responsive" src="images/neural.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+</div><!-- /.banner -->
 <!-- Footer -->
 <footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 
-				<p class="copyright text-muted small">Copyright &copy; Meerkat 2014. All Rights Reserved</p>
+				<p class="copyright text-muted small">Copyright &copy; <a href="http://www.meerkat.gr">Meerkat</a> 2014. All Rights Reserved</p>
 			</div>
 		</div>
 	</div>
